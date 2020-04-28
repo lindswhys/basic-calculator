@@ -1,0 +1,91 @@
+/*****BASE STYLES*****/
+body {
+    background-color: #FF7E6B;
+    color: #8C5E58;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+@media screen and (min-width: 800px) { 
+    .container { 
+      margin: 1em 2em; 
+    } 
+  } 
+
+/*****ELEMENT STYLING*****/
+
+#heading {
+    font-weight: bold;
+
+}
+
+#form {
+    background-color: #A9F0D1; /*Magic Mint*/
+    text-align: center;
+    padding: 50px 0;
+}
+
+
+h1 {
+    text-align: center;
+
+}
+
+input {
+    margin: 0 auto;
+    border: none;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    font-family: 'Courier New', Courier, monospace;
+    border-radius: 12px;
+}
+
+select {
+    margin: 50px 0;
+    background-color: #8C5E58; /* Rose Taupe */
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 14px;
+    font-family: 'Courier New', Courier, monospace;
+    border-radius: 12px;
+}
+
+.button {
+    background-color: #FFA69E; /* Vivid Tangerine */
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    font-family: 'Courier New', Courier, monospace;
+    border-radius: 12px;
+    transition-duration: 0.4s;
+  }
+
+  .button:hover {
+    background-color: #FF7E6B; /* Salmon */
+    color: white;
+  }
+
+
+  #results {
+    background-color: #8C5E58; /* Rose Taupe*/
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    font-family: 'Courier New', Courier, monospace;
+    border-radius: 12px;
+    margin: auto;
+    width: 10%;
+}
+
